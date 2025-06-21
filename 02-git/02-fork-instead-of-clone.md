@@ -12,12 +12,16 @@ From there:
    ```bash
    git clone https://github.com/my-username/devops-helm-project.git
    ```
-2. Created a new branch, made the fix, committed the changes.
-3. Pushed the branch to **my fork**:
+2. goto into the directory
+   ```bash 
+   cd devops-helm-project 
+   ```
+4. Created a new branch, made the fix, committed the changes. 
+5. Pushed the branch to **my fork**:
    ```bash
    git push origin bugfix-helm-values
    ```
-4. Finally, I submitted a **pull request** to the original repository.
+6. Finally, I submitted a **pull request** to the original repository.
 
 Using `git clone` directly on the upstream repo wouldn't have helped because I couldn’t push changes or open a PR without a fork. So, **forking gave me independence and write access on my own terms**, while still contributing back to the main project.
 
