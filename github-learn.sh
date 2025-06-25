@@ -1,6 +1,5 @@
  I am Santhosh ,git hub practioner 
  practice git fetch and pull
 
- cat
- 
+ understanding fetch and pull
  
